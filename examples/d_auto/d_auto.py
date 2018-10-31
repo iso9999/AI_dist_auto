@@ -11,7 +11,7 @@ nb50 = 90
 nb20 = 56
 nb10 = 21
 
-price = 15.50
+price = 10.50
 total = 20
  
 def solve():
@@ -43,7 +43,11 @@ def main():
     solutions = solve()
     # Print the solutions
     print("Found %d solution(s)!" % len(solutions))
-    
+    print("X1 = %d" % solutions[0]["X1"])
+    print("X2 = %d" % solutions[0]["X2"])
+    print("X10 = %d" % solutions[0]["X10"])
+    print("X20 = %d" % solutions[0]["X20"])
+    print("X50 = %d" % solutions[0]["X50"])
     
 
 if __name__ == "__main__":
